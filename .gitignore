@@ -1,5 +1,11 @@
-# Node modules
-node_modules
+ 
+# مجلد المكتبات الضخمة
+node_modules/
 
-# Environment variables
+# ملف متغيرات البيئة السرية
 .env
+
+# ملفات السجل (Logs) وملفات مؤقتة أخرى (اختياري)
+npm-debug.log*
+*.log
+.DS_Store
